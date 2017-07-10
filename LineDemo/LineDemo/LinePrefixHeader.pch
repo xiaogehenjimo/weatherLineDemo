@@ -1,0 +1,30 @@
+//
+//  LinePrefixHeader.pch
+//  LineDemo
+//
+//  Created by xuqinqiang on 2017/7/7.
+//  Copyright © 2017年 CamelotChina.com. All rights reserved.
+//
+
+#ifndef LinePrefixHeader_pch
+#define LinePrefixHeader_pch
+
+#ifdef __OBJC__
+
+
+
+#define iPhoneWidth  [UIScreen mainScreen].bounds.size.width
+#define iphoneHeight [UIScreen mainScreen].bounds.size.height
+
+
+#import "UIView+KDS_FrameHelper.h"
+#import "UIColor+KDS_HexToUIColor.h"
+
+
+
+
+
+
+#endif
+
+#endif /* LinePrefixHeader_pch */
